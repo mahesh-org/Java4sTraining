@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/10HAQLDMLOperation/10HAQLDMLOperation.iml" filepath="$PROJECT_DIR$/10HAQLDMLOperation/10HAQLDMLOperation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11CriteriaQuery/11CriteriaQuery.iml" filepath="$PROJECT_DIR$/11CriteriaQuery/11CriteriaQuery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12Projections/12Projections.iml" filepath="$PROJECT_DIR$/12Projections/12Projections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13NativeSQLQuery/13NativeSQLQuery.iml" filepath="$PROJECT_DIR$/13NativeSQLQuery/13NativeSQLQuery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14NamedQuery/14NamedQuery.iml" filepath="$PROJECT_DIR$/14NamedQuery/14NamedQuery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/15SecondLevelCache/15SecondLevelCache.iml" filepath="$PROJECT_DIR$/15SecondLevelCache/15SecondLevelCache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1SelectQuery/1SelectQuery.iml" filepath="$PROJECT_DIR$/1SelectQuery/1SelectQuery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2UpdateQuery/2UpdateQuery.iml" filepath="$PROJECT_DIR$/2UpdateQuery/2UpdateQuery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3DeleteQuery/3DeleteQuery.iml" filepath="$PROJECT_DIR$/3DeleteQuery/3DeleteQuery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4VersioningOfObject/4VersioningOfObject.iml" filepath="$PROJECT_DIR$/4VersioningOfObject/4VersioningOfObject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5WrapperAndPrimitiveTypes/5WrapperAndPrimitiveTypes.iml" filepath="$PROJECT_DIR$/5WrapperAndPrimitiveTypes/5WrapperAndPrimitiveTypes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6LifeCycleOfPojoClass/6LifeCycleOfPojoClass.iml" filepath="$PROJECT_DIR$/6LifeCycleOfPojoClass/6LifeCycleOfPojoClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7Inheritance/7Inheritance.iml" filepath="$PROJECT_DIR$/7Inheritance/7Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/8CompositePrimaryKey/8CompositePrimaryKey.iml" filepath="$PROJECT_DIR$/8CompositePrimaryKey/8CompositePrimaryKey.iml" />
+      <module fileurl="file://$PROJECT_DIR$/9HQL/9HQL.iml" filepath="$PROJECT_DIR$/9HQL/9HQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java4sTraining.iml" filepath="$PROJECT_DIR$/Java4sTraining.iml" />
+    </modules>
+  </component>
+</project>

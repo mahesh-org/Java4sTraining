@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="10HAQLDMLOperation" />
+        <module name="11CriteriaQuery" />
+        <module name="12Projections" />
+        <module name="13NativeSQLQuery" />
+        <module name="14NamedQuery" />
+        <module name="15SecondLevelCache" />
+        <module name="1SelectQuery" />
+        <module name="2UpdateQuery" />
+        <module name="3DeleteQuery" />
+        <module name="4VersioningOfObject" />
+        <module name="5WrapperAndPrimitiveTypes" />
+        <module name="6LifeCycleOfPojoClass" />
+        <module name="7Inheritance" />
+        <module name="8CompositePrimaryKey" />
+        <module name="9HQL" />
+        <module name="DeleteQuery" />
+        <module name="Inheritance" />
+        <module name="LifeCycleOfPojoClass" />
+        <module name="SelectQuery" />
+        <module name="UpdateQuery" />
+        <module name="VersioningOfObject" />
+        <module name="WrapperAndPrimitiveTypes" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="10HAQLDMLOperation" target="1.5" />
+      <module name="11CriteriaQuery" target="1.5" />
+      <module name="12Projections" target="1.5" />
+      <module name="13NativeSQLQuery" target="1.5" />
+      <module name="14NamedQuery" target="1.5" />
+      <module name="15SecondLevelCache" target="1.5" />
+      <module name="1SelectQuery" target="1.5" />
+      <module name="2UpdateQuery" target="1.5" />
+      <module name="3DeleteQuery" target="1.5" />
+      <module name="4VersioningOfObject" target="1.5" />
+      <module name="5WrapperAndPrimitiveTypes" target="1.5" />
+      <module name="6LifeCycleOfPojoClass" target="1.5" />
+      <module name="7Inheritance" target="1.5" />
+      <module name="8CompositePrimaryKey" target="1.5" />
+      <module name="9HQL" target="1.5" />
+      <module name="DeleteQuery" target="1.5" />
+      <module name="Inheritance" target="1.5" />
+      <module name="Java4sTraining" target="1.5" />
+      <module name="LifeCycleOfPojoClass" target="1.5" />
+      <module name="SelectQuery" target="1.5" />
+      <module name="UpdateQuery" target="1.5" />
+      <module name="VersioningOfObject" target="1.5" />
+      <module name="WrapperAndPrimitiveTypes" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
