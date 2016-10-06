@@ -11,7 +11,7 @@ import java.util.List;
 
 /**
  * Created by Maheshwar Muttal on 10/14/2015.
- * HQL is very similar to SQL except that we use Objects inbstead of table names, that makes more close to Object oriented programming.
+ * HQL is very similar to SQL except that we use Objects instead of table names, that makes more close to Object oriented programming.
  * Disadvantage : We need to take care of table mappings in our code.
  */
 public class HibernateMain {
