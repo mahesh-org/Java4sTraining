@@ -12,3 +12,11 @@ java -cp C:\Users\IBM_ADMIN\.m2\repository\org\hsqldb\hsqldb\2.3.1\hsqldb-2.3.1.
 
 Url : jdbc:hsqldb:hsql://localhost/xdb
 
+MY SQL Setup: /**/
+drop database if exists devdb;
+create database devdb;
+GRANT ALL PRIVILEGES ON *.* TO devdb@localhost IDENTIFIED BY 'devdb' WITH GRANT OPTION;
+
+USE devdb;
+select database();
+/**/
