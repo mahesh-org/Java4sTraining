@@ -29,8 +29,8 @@ public class HibernateMain {
         session.beginTransaction();
 
         /*5) Deleting a record - Use executeQuery() for DML operation*/
-        Query query5 = session.createQuery("delete from Product p where p.productId=:java4s");
-        query5.setParameter("java4s", 1);
+        Query query5 = session.createQuery("delete from Product p where p.productId=:QProductId");
+        query5.setParameter("QProductId", 1);
 
         int result  = query5.executeUpdate();
         System.out.println("Numer of records effected due to delete query" + result);
@@ -51,8 +51,8 @@ public class HibernateMain {
         /*Deleting a record End*/
 
         /*6) Updating a record - Use executeQuery() for DML operation*/
-        Query query6 = session.createQuery("update Product p set productName=:PName, price=:PPrice where p.productId=:java4s");
-        query6.setParameter("java4s", 2);
+        Query query6 = session.createQuery("update Product p set productName=:PName, price=:PPrice where p.productId=:QProductId");
+        query6.setParameter("QProductId", 2);
         query6.setParameter("PName", "Updated Product Name..");
         query6.setParameter("PPrice", 20000.00);
 
