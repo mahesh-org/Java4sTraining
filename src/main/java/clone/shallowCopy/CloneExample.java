@@ -1,8 +1,24 @@
-package org.mahesh;
+package clone.shallowCopy;
 
 import org.apache.log4j.Logger;
-import org.mahesh.bean.Rectangle;
+import clone.bean.Rectangle;
 
+/*
+    For more info refer below link
+    http://javarevisited.blogspot.in/2013/09/how-clone-method-works-in-java.html
+    1) The clone() method is used to create a copy of an object in Java. In order to use clone() method, class must implement java.lang.Cloneable interface and override protected clone() method from java.lang.Object.
+
+        A call to clone() method will result in CloneNotSupportedException if that class doesn't implement Cloneable interface.
+
+    2) Default implementation of clone() method in Java provides "shallow copy" of object, because it creates copy of Object by creating new instance and then copying content by assignment
+
+    3) By convention, clone of an instance should be obtained by calling super.clone() method
+
+    4) A shallow copy of an instance is fine, until it only contains primitives and Immutable objects,
+        For Mutable and collection it will refer the same object
+
+    This is First part of cloning with primitive and immutable fields in the Rectangle Object (Shallow Copy)
+*/
 public class CloneExample {
     private static final Logger logger =  Logger.getLogger(CloneExample.class.getName());
 

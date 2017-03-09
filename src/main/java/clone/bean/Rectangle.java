@@ -1,4 +1,4 @@
-package org.mahesh.bean;
+package clone.bean;
 
 /**
  * Created by Maheshwar Muttal on 3/9/2017.
