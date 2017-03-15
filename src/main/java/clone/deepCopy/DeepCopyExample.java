@@ -25,7 +25,7 @@ public class DeepCopyExample {
         javaguru.addCertificates("CISM");
         javaguru.setCurrentDate(new Date());
 
-        Thread.sleep(1000); //sleep for 1 seconds
+        Thread.sleep(2000); //sleep for 1 seconds
         logger.info("Real Java Guru : " + javaguru);
         Programmer clone = javaguru.clone();
 

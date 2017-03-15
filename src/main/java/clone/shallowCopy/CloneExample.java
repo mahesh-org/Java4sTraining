@@ -58,6 +58,7 @@ public class CloneExample {
         logger.info("Clonned object  :" + copy);
     }
 
+
 }
 
 /*
