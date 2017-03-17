@@ -3,9 +3,9 @@ package org.mahesh;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-import org.mahesh.bean.tablePerSubClass_Joined.Cheque;
-import org.mahesh.bean.tablePerSubClass_Joined.CreditCard;
-import org.mahesh.bean.tablePerSubClass_Joined.Payment;
+import org.mahesh.bean.tablePerClass.Cheque;
+import org.mahesh.bean.tablePerClass.CreditCard;
+import org.mahesh.bean.tablePerClass.Payment;
 
 /**
  * Created by Maheshwar Muttal on 10/20/2015.

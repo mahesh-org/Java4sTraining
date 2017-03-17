@@ -17,13 +17,13 @@ public class HibernateMain {
         Session session = sessionFactory.openSession();
         session.beginTransaction();
 
-        ProductPK productPK = createProductPK(100, "Product 1");
-        Product product = createProduct(productPK);
+        ProductPK productPK1 = createProductPK(100, "Product 1");
+        Product product1 = createProduct(productPK1);
 
-        final ProductPK productPK2 = createProductPK(200, "Product 1");
+        final ProductPK productPK2 = createProductPK(200, "Product 2");
         Product product2 = createProduct(productPK2);
 
-        session.save(product);
+        session.save(product1);
         session.getTransaction().commit();
         session.beginTransaction();
         session.save(product2);
@@ -31,8 +31,8 @@ public class HibernateMain {
         session.close();
 
         session = sessionFactory.openSession();
-        product = (Product)session.get(Product.class, 100);
-        System.out.println(product);
+        product1 = (Product)session.get(Product.class, productPK1);
+        System.out.println(product1);
     }
 
     private final static ProductPK createProductPK(final int id, final String name) {
@@ -44,7 +44,7 @@ public class HibernateMain {
     private final static Product createProduct(final ProductPK productPK) {
         Product product = new Product();
         product.setProductPK(productPK);
-        product.setPrice(100);
+        product.setPrice(10 * productPK.getProductId());
 
         return product;
     }

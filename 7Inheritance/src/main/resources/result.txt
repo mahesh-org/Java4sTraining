@@ -1,0 +1,52 @@
+*************tablePerSubClass_Joined**********
+mysql> select * from payment;
++-----------+--------+
+| paymentId | amount |
++-----------+--------+
+|         1 |    100 |
+|         2 |    200 |
+|         3 |    300 |
++-----------+--------+
+3 rows in set (0.01 sec)
+
+mysql> select * from creditcard;
++---------+-----------+
+| CC_TYPE | paymentId |
++---------+-----------+
+| VISA    |         2 |
++---------+-----------+
+1 row in set (0.02 sec)
+
+mysql> select * from cheque;
++---------+-----------+
+| CH_TYPE | paymentId |
++---------+-----------+
+| ICICI   |         3 |
++---------+-----------+
+1 row in set (0.03 sec)
+***************End of tablePerSubClass_Joined**************
+***********tablePerClass************************
+mysql> select * from payment;
++-----------+--------+
+| paymentId | amount |
++-----------+--------+
+|         1 |    100 |
++-----------+--------+
+1 row in set (0.01 sec)
+
+mysql> select * from creditcard;
++-----------+--------+---------+
+| paymentId | amount | CC_TYPE |
++-----------+--------+---------+
+|         2 |    200 | VISA    |
++-----------+--------+---------+
+1 row in set (0.01 sec)
+
+mysql> select * from cheque;
++-----------+--------+---------+
+| paymentId | amount | CH_TYPE |
++-----------+--------+---------+
+|         3 |    300 | ICICI   |
++-----------+--------+---------+
+1 row in set (0.00 sec)
+***********End of tablePerClass*************

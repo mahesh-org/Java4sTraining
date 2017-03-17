@@ -28,7 +28,7 @@ public class HibernateMain {
 
         session.beginTransaction();
         product.setProductName("Product name Altered with session.Update()...");
-        session.update(product);
+        //session.update(product);
         session.getTransaction().commit();
         session.close();
         ** End of First Approach ***/
@@ -38,6 +38,7 @@ public class HibernateMain {
         session.beginTransaction();
         product = (Product) session.load(Product.class, 1);
         product.setProductName("Updated without session.Update()...");
+         //Even though session.update() not called explicitly , commit() will internally calls the update() method
         session.getTransaction().commit();
 
         /** End of Second Approach ***/
