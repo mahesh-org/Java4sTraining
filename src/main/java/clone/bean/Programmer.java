@@ -63,7 +63,7 @@ public class Programmer implements Cloneable {
 
             /****deep copying ****/
             //Comment this part and check o/p, you can see clone object will have the latest changes for mutable class (certification)
-            clone.certifications = new ArrayList(certifications);
+            //clone.certifications = new ArrayList(certifications);
         } catch (CloneNotSupportedException cns) {
             logger.error("Error while cloning programmer", cns);
         }

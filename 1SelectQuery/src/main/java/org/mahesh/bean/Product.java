@@ -2,9 +2,6 @@ package org.mahesh.bean;
 
 import javax.persistence.*;
 
-/**
- * Created by Maheshwar Muttal on 10/14/2015.
- */
 @Entity
 @Table(name = "PRODUCTS")
 public class Product {

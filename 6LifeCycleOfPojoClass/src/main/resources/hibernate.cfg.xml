@@ -46,10 +46,10 @@
 
         <!-- SQL dialect -->
         <!--<property name="dialect">org.mahesh.hibernate.dialect.Oracle10gDialect</property>-->
-        <property name="dialect">org.hibernate.dialect.HSQLDialect</property>
+        <!--<property name="dialect">org.hibernate.dialect.HSQLDialect</property>-->
 
         <!-- Drop and re-create the database schema on startup -->
-        <property name="hbm2ddl.auto">update</property>
+        <property name="hbm2ddl.auto">create</property>
 
         <!-- JDBC connection pool (use the built-in) -->
         <property name="connection.pool_size">1</property>
@@ -61,6 +61,8 @@
         <!-- Related to mapping START-->
         <!-- Names the annotated entity class -->
         <mapping class="org.mahesh.bean.Product"/>
+        <mapping class="org.mahesh.bean.Employee"/>
+        <mapping class="org.mahesh.bean.Address"/>
         <!-- Related to mapping END-->
 
     </session-factory>

@@ -15,14 +15,30 @@ public class HibernateMain {
         Session session = sessionFactory.openSession();
         session.beginTransaction();
 
+        Product productCopy = null;
+
         Product product = createProduct();
         session.save(product);
         session.getTransaction().commit();
         session.close();
 
         session = sessionFactory.openSession();
+        session.beginTransaction();
         product = (Product)session.get(Product.class, 1);
+        productCopy = product;
+        product.setPrice(200);
+        //session.getTransaction().commit();
+        /*session.close();
         System.out.println(product);
+
+        session = sessionFactory.openSession();
+        session.beginTransaction();*/
+        //productCopy.setPrice(500);
+        //session.update(productCopy);
+        System.out.println(productCopy);
+        session.getTransaction().commit();
+        session.close();
+
     }
 
     private final static Product createProduct() {

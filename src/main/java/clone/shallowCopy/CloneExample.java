@@ -6,11 +6,13 @@ import clone.bean.Rectangle;
 /*
     For more info refer below link
     http://javarevisited.blogspot.in/2013/09/how-clone-method-works-in-java.html
-    1) The clone() method is used to create a copy of an object in Java. In order to use clone() method, class must implement java.lang.Cloneable interface and override protected clone() method from java.lang.Object.
+    1) The clone() method is used to create a copy of an object in Java. In order to use clone() method, class must implement java.lang.Cloneable interface
+        and override protected clone() method from java.lang.Object.
 
         A call to clone() method will result in CloneNotSupportedException if that class doesn't implement Cloneable interface.
 
-    2) Default implementation of clone() method in Java provides "shallow copy" of object, because it creates copy of Object by creating new instance and then copying content by assignment
+    2) Default implementation of clone() method in Java provides "shallow copy" of object, because it creates copy of Object by creating new instance
+        and then copying content by assignment
 
     3) By convention, clone of an instance should be obtained by calling super.clone() method
 

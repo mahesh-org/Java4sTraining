@@ -1,5 +1,7 @@
 package org.mahesh;
 
+import accessModifiers.AccessModifierTest;
+
 import java.sql.Time;
 import java.sql.Timestamp;
 import java.util.Date;
@@ -9,6 +11,10 @@ import java.util.Date;
  */
 public class JavaTest {
     public static void main(String[] args) {
+
+        AccessModifierTest.staticM();
+
+        AccessModifierTest test = new AccessModifierTest();
 
         //Difference b/w java.util.Date and java.sql.Date
         Date currentDate = new Date();

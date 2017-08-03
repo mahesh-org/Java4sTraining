@@ -30,7 +30,7 @@ public class HibernateMain {
         Product product;
         session.beginTransaction();
         /*1) Selecting all/complete objects(records) start*/
-        Query query1 = session.createQuery("select p from Product p");
+        Query query1 = session.createQuery("select p from Product as p order by p.productName");
         List list1 = query1.list();
 
         System.out.println("Total number of records: "+ list1.size());

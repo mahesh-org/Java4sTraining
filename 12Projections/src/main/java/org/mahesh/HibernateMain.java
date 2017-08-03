@@ -80,7 +80,20 @@ public class HibernateMain {
             System.out.println(obj[0] + " : " + obj[1]);
         }
         System.out.println("**************2222*************");
-        /* 2) Criteria using multiple Projection using ProjectionList End*/
+        /* 3) Criteria using multiple Projection using ProjectionList End*/
+
+        /* 4) Criteria using Projection count distinct Start*/
+        criteria = session.createCriteria(Product.class);
+        criteria.setProjection(Projections.countDistinct("productName"));
+
+        List countlist = criteria.list();
+        System.out.println("Product size: " + list.size());
+        Iterator iteratorCount = list.iterator();
+        while (iteratorCount.hasNext()) {
+            System.out.println(iteratorCount.next());
+        }
+        System.out.println("**************4444444*************");
+        /* 4) Criteria using Projection count distinct End*/
 
         session.close();
         sessionFactory.close();
@@ -88,8 +101,9 @@ public class HibernateMain {
 
     private final static Product createProduct(int unit) {
         Product product = new Product();
-        product.setProductName("Criteria Query Product " + unit);
-        product.setPrice(100 + unit);
+        //product.setProductName("Criteria Query Product " + unit);
+        product.setProductName("mahi");
+        product.setPrice(100);
 
         return product;
     }

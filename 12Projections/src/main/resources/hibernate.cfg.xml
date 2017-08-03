@@ -29,14 +29,14 @@
 <hibernate-configuration>
     <session-factory>
         <!-- Related to the connection START -->
-        <property name="connection.url">jdbc:mysql://localhost:3306/devdb</property>
+        <!--<property name="connection.url">jdbc:mysql://localhost:3306/devdb</property>
         <property name="connection.username">devdb</property>
         <property name="connection.password">devdb</property>
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
-        <!--<property name="connection.driver_class">org.hsqldb.jdbcDriver</property>
+        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>-->
+        <property name="connection.driver_class">org.hsqldb.jdbcDriver</property>
         <property name="connection.url">jdbc:hsqldb:hsql://localhost/xdb</property>
-        <property name="connection.username">sa</property>-->
+        <property name="connection.username">sa</property>
         <!--<property name="connection.password"></property>-->
         <!-- Related to the connection END -->
 
