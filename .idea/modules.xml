@@ -8,16 +8,16 @@
       <module fileurl="file://$PROJECT_DIR$/13NativeSQLQuery/13NativeSQLQuery.iml" filepath="$PROJECT_DIR$/13NativeSQLQuery/13NativeSQLQuery.iml" />
       <module fileurl="file://$PROJECT_DIR$/14NamedQuery/14NamedQuery.iml" filepath="$PROJECT_DIR$/14NamedQuery/14NamedQuery.iml" />
       <module fileurl="file://$PROJECT_DIR$/15SecondLevelCache/15SecondLevelCache.iml" filepath="$PROJECT_DIR$/15SecondLevelCache/15SecondLevelCache.iml" />
-      <module fileurl="file://$PROJECT_DIR$/1SelectQuery/1SelectQuery.iml" filepath="$PROJECT_DIR$/1SelectQuery/1SelectQuery.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2UpdateQuery/2UpdateQuery.iml" filepath="$PROJECT_DIR$/2UpdateQuery/2UpdateQuery.iml" />
-      <module fileurl="file://$PROJECT_DIR$/3DeleteQuery/3DeleteQuery.iml" filepath="$PROJECT_DIR$/3DeleteQuery/3DeleteQuery.iml" />
-      <module fileurl="file://$PROJECT_DIR$/4VersioningOfObject/4VersioningOfObject.iml" filepath="$PROJECT_DIR$/4VersioningOfObject/4VersioningOfObject.iml" />
-      <module fileurl="file://$PROJECT_DIR$/5WrapperAndPrimitiveTypes/5WrapperAndPrimitiveTypes.iml" filepath="$PROJECT_DIR$/5WrapperAndPrimitiveTypes/5WrapperAndPrimitiveTypes.iml" />
-      <module fileurl="file://$PROJECT_DIR$/6LifeCycleOfPojoClass/6LifeCycleOfPojoClass.iml" filepath="$PROJECT_DIR$/6LifeCycleOfPojoClass/6LifeCycleOfPojoClass.iml" />
-      <module fileurl="file://$PROJECT_DIR$/7Inheritance/7Inheritance.iml" filepath="$PROJECT_DIR$/7Inheritance/7Inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/8CompositePrimaryKey/8CompositePrimaryKey.iml" filepath="$PROJECT_DIR$/8CompositePrimaryKey/8CompositePrimaryKey.iml" />
       <module fileurl="file://$PROJECT_DIR$/9HQL/9HQL.iml" filepath="$PROJECT_DIR$/9HQL/9HQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3DeleteQuery/DeleteQuery.iml" filepath="$PROJECT_DIR$/3DeleteQuery/DeleteQuery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/7Inheritance/Inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java4sTraining.iml" filepath="$PROJECT_DIR$/Java4sTraining.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6LifeCycleOfPojoClass/LifeCycleOfPojoClass.iml" filepath="$PROJECT_DIR$/6LifeCycleOfPojoClass/LifeCycleOfPojoClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1SelectQuery/SelectQuery.iml" filepath="$PROJECT_DIR$/1SelectQuery/SelectQuery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2UpdateQuery/UpdateQuery.iml" filepath="$PROJECT_DIR$/2UpdateQuery/UpdateQuery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4VersioningOfObject/VersioningOfObject.iml" filepath="$PROJECT_DIR$/4VersioningOfObject/VersioningOfObject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5WrapperAndPrimitiveTypes/WrapperAndPrimitiveTypes.iml" filepath="$PROJECT_DIR$/5WrapperAndPrimitiveTypes/WrapperAndPrimitiveTypes.iml" />
     </modules>
   </component>
 </project>

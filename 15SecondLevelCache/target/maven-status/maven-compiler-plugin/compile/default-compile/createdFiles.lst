@@ -1,0 +1,4 @@
+org\mahesh\HibernateEHCacheMain.class
+org\mahesh\util\HibernateUtil.class
+org\mahesh\bean\Address.class
+org\mahesh\bean\Employee.class

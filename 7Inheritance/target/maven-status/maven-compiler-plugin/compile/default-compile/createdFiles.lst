@@ -1,0 +1,10 @@
+org\mahesh\bean\tablePerClass\CreditCard.class
+org\mahesh\bean\tablePerSubClass_Joined\Cheque.class
+org\mahesh\bean\tablePerClass\Cheque.class
+org\mahesh\bean\tablePerClass\Payment.class
+org\mahesh\bean\singleTable\Payment.class
+org\mahesh\bean\singleTable\CreditCard.class
+org\mahesh\HibernateMain.class
+org\mahesh\bean\tablePerSubClass_Joined\Payment.class
+org\mahesh\bean\singleTable\Cheque.class
+org\mahesh\bean\tablePerSubClass_Joined\CreditCard.class

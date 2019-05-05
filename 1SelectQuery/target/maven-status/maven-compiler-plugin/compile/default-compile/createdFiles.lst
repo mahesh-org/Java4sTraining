@@ -1,0 +1,7 @@
+org\mahesh\bean\Product.class
+org\mahesh\bean\StudentSport.class
+org\mahesh\bean\Category.class
+org\mahesh\HibernateMain.class
+org\mahesh\bean\CategorySports.class
+org\mahesh\bean\Student.class
+org\mahesh\StudentTest.class
